@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Intro-regular';
+    src: url('fonts/intro_regular.ttf');
+}
+
+h1{
+    color: black;
+    font-family: "Intro Regular", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 300px; /* Задайте фиксированную ширину */
+    margin: 0 auto;
+}
+
+img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+p{
+    width: 300px; /* Задайте фиксированную ширину */
+    margin: 0 auto;
+}
